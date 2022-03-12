@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    padding: 2px;
+   /* border-top: 3px solid blue;
+    border-bottom: 3px solid skyblue; */
+    background: linear-gradient(to right, #fff, #fff, #E7F3FC, #E7F3FC);  /* blue2= 1F3E72*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.nav .menu {
+    color: #8894A8;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;    
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+}
+
+.nav .menu:hover {
+    color: #2949C7;
+
+}
+
+.btnLogin {
+    background-color: #2949C7;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    position: relative;
+    font-size: 16px;   
+    box-shadow: 4px 2px #cfcdcd; 
+}
+
+.btnLogin:hover {
+    background-color: #546ccc;
+}
+
+.nav h1 {
+    color: #2949C7;
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    top: 34px;
+    letter-spacing: 0.5px;
+    padding-left: 120px;
+}
+
+/* divide la sección en dos columnas  */
+.section1 {
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* establece las columnas del mismo tamaño */
+.section1 > div {
+    width: 50%;
+    padding: 0px;
+}
+
+.section >div:first-child {
+    margin-right: 20px;
+}
+
+
+.col-2 img{
+    background-color: #217BDE;
+    width: 100%;
+    height: 90%;
+    z-index: 1;
+    position: relative;
+}
+
+.col-1 h2 {
+    font-size: 60px;
+    color: #1F3E72;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+
+.col-1 p {
+    font-size: 16px;
+    letter-spacing: 0.5;
+    padding-left: 110px;
+    padding-top: 40px;
+    color: #8894A8;
+    line-height: 20pt;
+}
+
+.submenu1 a {
+    text-decoration: none;
+    color: #4B648D;
+    padding-left: 125px;
+}
+
+.submenu1 a:hover {
+    color: #1F3E72;
+}
+
+.submenu1 .icon {
+    width: 15px;
+    height: 15px;
+    padding-top: 50px;
+    letter-spacing: 2pt;
+}
+
+.iconReloj {
+    width: 15px;
+    height: 15px;
+    padding-top: 50px;
+    letter-spacing: 2pt;      
+    padding-top: 120px; 
+}
+
+.iconRelox {
+    text-decoration: none;
+    color: #1F3E72;
+    font-weight: bold;
+    padding-left: 140px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+
+#fechasVacuna {
+    background-color: #fff;
+    padding-left: 140px;
+    width: 800px;
+    height: 80px;
+    padding: 60px;
+    padding-top: 10px; 
+    position: relative;
+    z-index: 50; /* pone un background sobre otro */
+    border-radius: 5px;
+    box-shadow: -5px 10px 5px #E7F3FC; /* #E7F3FC */
+}
+
+.fechasVacuna .iconosFecha {
+    width: 15px;
+    height: 15px;
+    padding-top: 50px;
+    letter-spacing: 2pt;      
+    /* padding-top: 120px; */ 
+    position: relative;
+    display: inline-block;
+}
+
+.fechasVacuna a {
+    text-decoration: none;
+    color: #8894A8;
+    padding-left: 140px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    position: relative;
+}
+
+.fechasVacuna a:hover {
+    color: #1F3E72;
+}
+
+
+.fechasVacuna .btn-registrar {
+    text-align: right;
+    background-color: #2949C7;
+    color: #fff;
+    padding-left: 340px;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.fechasVacuna .btn-registrar:hover {
+    background-color: #546ccc;
+    color: #fff;
+}
+
+.listaVacuna {
+    padding-left: 120px;
+}
+
+.listaVacuna li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 40px;
+}
+
+
+.datoVacuna {
+    color: #1F3E72;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    padding-top: 0.5px;
+}
+
+.section2 {
+    padding-left: 140px;
+    padding-top: 5px;
+    /* background-color: #1F3E72; */
+    display: flex;
+
+}
+
+.section2 .imgVacunas1 {
+    width: 200px;
+    height: 90px;
+    padding: 20px;
+    display: inline;
+}
+
+.section2 a {
+    padding-top: 10px;
+}
+
+.section3 .card-subtittle3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-subtittle3 h2 {
+    color: #1F3E72; /* blue color: 1F3E72 */
+    font-size: 28px; 
+    padding-left: 140px;
+    font-weight: bold;
+    padding-top: 80px;
+    letter-spacing: 0.2px;
+}
+
+.card-subtittle3 p {
+    color: #8894A8;
+    padding-left: 140px;
+    padding-top: 10px;
+    line-height: 30pt;
+}
+
+.card-benefits {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 70px;
+}
+
+.card-benefits table {
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+
+.card-benefits img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.card-benefits .subtittles-section3 {
+    text-align: left;
+    font-size: 12px;
+    color: #1F3E72;
+}
+
+.card-benefits .text-section3 {
+    color: #8894A8;
+    font-size: 14px;
+}
+
+/* Estilos de la sección 4 */
+
+.section4 {
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+}
+ 
+/* establece las columnas del mismo tamaño */
+.section4 > div {
+    width: 50%;
+    padding: 0px;
+}
+
+.section4 >div:first-child {
+    margin-right: 20px;
+}
+
+.col1-section4 img {
+    background-color: #217BDE;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    align-items: center;
+}
+
+.col2-section4 h2 {
+    color: #1F3E72;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.col2-section4 p {
+    color: #8894A8;
+    letter-spacing: 0.2px;
+    line-height: 20pt;
+    padding-top: 30px;
+}
+
+.list-section4 .text-section4 {
+    padding-left: 40px;
+    padding-top: 2px;
+}
+
+.list-section4 img {
+    width: 20px;
+    height: 20px;
+}
+
+.list-section4 .flecha {
+    padding-left: 20px;
+}
+
+.list-section4 .list {
+    list-style: none;
+    padding: 0px;
+    padding-top: 35px;
+}
+
+.list-section4 a {
+    text-decoration: none;
+    color: #1F3E72;  
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+
+/* Sección 5*/
+
+.row-section5 .col1-section5 {
+    padding-left: 2px;
+}
+
+.flex-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.flex-section5 .flex1-section5 {
+    background-color: #fdfafc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.flex1-section5 h3{
+    font-size: 14px;
+}
+
+.flex1-section5 p {
+    color: #8894A8;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.flex1-section5 a {
+    background-color: #F1F5FF;
+    color: #217BDE;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.flex1-section5 a:hover {
+    background-color: #c3c8d1;
+}
+
+.flex1-section5 .btn-blue {
+    background-color: #217BDE;
+    color: #fff;
+}
+
+.flex1-section5 .btn-blue:hover {
+    background-color: #546ccc;
+}
+
+.secondflex-section5 .secondflex1-section5 {
+    background-color: #fdfafc;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.flex-section5 .flex1-section5 {
+    background-color: #fdfafc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.secondflex1-section5 h3{
+    font-size: 14px;
+}
+
+.secondflex1-section5 p {
+    color: #8894A8;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.secondflex1-section5 a {
+    background-color: #F1F5FF;
+    color: #217BDE;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.secondflex1-section5 a:hover {
+    background-color: #c3c8d1;
+}
+
+.secondflex1-section5 .btn-blue {
+    background-color: #217BDE;
+    color: #fff;
+}
+
+.secondflex1-section5 .btn-blue:hover {
+    background-color: #546ccc;
+}
+
+
+.col1-section5 .img-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondflex-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.col-1-section5 .seconflex-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+
+
+
+
+/* estilos de la seccion 5 */
+
+
+.row-section5 {
+    display: flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* establece las columnas del mismo tamaño */
+.row-section5 > div {
+    width: 50%;
+    padding: 0px;
+}
+
+.row-section5 >div:first-child {
+    margin-right: 20px;
+    color: #1F3E72; /* blue color: 1F3E72 */
+    font-size: 28px; 
+    padding-left: 140px;
+    font-weight: bold;
+    padding-top: 80px;
+    letter-spacing: 0.2px;
+}
+
+.section5 {
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.subtitle5 h2 {
+    color: #1F3E72;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+}
+
+.subtitle5 p {
+    color: #8894A8;
+    line-height: 20pt;
+}
+
+.col-1-section5 {
+    padding: 40px;
+}
+
+
+.col-1-section5 img {
+    width: 20px;
+    height: 20px;
+}
+
+.col-1-section5 .tittle1-col1 {
+    background-color: #4B648D;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.col2-section5 {
+    background-color: #217BDE;
+}
+
+.col2-section5 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* diseño de contenido de footer1 */
+.footer {
+    background-color: #EEF3FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .flexContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.flexContent h2 {
+    color: #1F3E72;
+    font-size: 18px;
+}
+
+
+
+
+/* Diseño de terminos y condiciones */
+.footer .term-conditions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flexContent p {
+    color: #8894A8;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.flexContent li {
+    list-style: none;
+    padding-top: 15px;
+}
+
+.flexContent a {
+    text-decoration: none;
+    color: #8894A8;
+    font-size: 14px;
+}
+
+.footer .term-conditions {
+    padding-top: 15px;
+    color: #8894A8;
+    padding: 20px;
+    font-size: 12px;
+}
+
+
+/*
+
+letter-spacing: 2pt;       para separar entgre letras 
+word-spacing: 5pt;         para separacion entre palabras 
+line-height: 20pt;         para la separacion entre lineas  
+text-indent: 30pt;         para sangrias  
+
+*/
